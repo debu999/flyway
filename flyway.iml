@@ -14,8 +14,13 @@
       <configuration>
         <setting name="validation-enabled" value="true" />
         <setting name="provider-name" value="Hibernate" />
-        <datasource-mapping />
+        <datasource-mapping>
+          <factory-entry name="default" value="7ef64f1d-b257-4cf5-a06a-8afae7d60fcc" />
+          <factory-entry name="entityManagerFactory" value="7ef64f1d-b257-4cf5-a06a-8afae7d60fcc" />
+        </datasource-mapping>
         <naming-strategy-map />
+        <deploymentDescriptor name="orm.xml" url="file://$MODULE_DIR$/META-INF/orm.xml" />
+        <deploymentDescriptor name="persistence.xml" url="file://$MODULE_DIR$/META-INF/persistence.xml" />
       </configuration>
     </facet>
     <facet type="Spring" name="Spring">
